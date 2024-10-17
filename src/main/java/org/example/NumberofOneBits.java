@@ -42,7 +42,7 @@ public class NumberofOneBits {
     public int hammingWeight(int n) {
        int cont =0;
        while(n!=0){
-           n = n & (n - 1); // Remove the lowest set bit
+           n = n & (n - 1);
            cont++;
        }
 
