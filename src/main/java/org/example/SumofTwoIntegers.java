@@ -13,7 +13,6 @@ public class SumofTwoIntegers {
             int carry = a & b;
             a = a ^ b;
             b = carry << 1;
-
         }
 
         return a;
