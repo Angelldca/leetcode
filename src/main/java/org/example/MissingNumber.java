@@ -38,13 +38,10 @@ public class MissingNumber {
         int [] n1 = {0,1};//2
         int [] n2 = {9,6,4,2,3,5,7,0,1};//8
 
-      System.out.println(new MissingNumber().missingNumber(n2));
-        System.out.println(new MissingNumber().missingNumberXor(n2));
+      System.out.println(new MissingNumber().missingNumber(n));
+        System.out.println(new MissingNumber().missingNumberXor(n));
     }
     public int missingNumber(int[] nums) {
-
-
-
         int n = nums.length;
         int expectedSum = n * (n + 1) / 2;
         int actualSum = 0;
